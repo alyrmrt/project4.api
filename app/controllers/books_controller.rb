@@ -3,10 +3,10 @@ class BooksController < ProtectedController
 
   # GET /books
   def index
-    @books = current_user.books.all
+      @books = current_user.books.all
 
-    render json: @books
-  end
+      render json: @books
+    end
 
   # GET /books/1
   def show
@@ -15,7 +15,7 @@ class BooksController < ProtectedController
 
   # POST /books
   def create
-    @book = current_user.books.build(build_params)
+    @book = current_user.books.build(book_params)
 
     if @book.save
       render json: @book, status: :created, location: @book
