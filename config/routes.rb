@@ -14,5 +14,6 @@ Rails.application.routes.draw do
   # Custom routes
   post '/sign-up' => 'users#signup'
   post '/sign-in' => 'users#signin'
+  patch '/change-password' => 'users#changepassword'
   delete '/sign-out' => 'users#signout'
 end
