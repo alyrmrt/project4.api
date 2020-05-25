@@ -70,3 +70,6 @@ have the book without visiting any other page with this feauture.
 - As a signed in user, I would to edit item on my book list.
 - As a signed in user, I would to delete item on my list.
 - As a user, I want to make internet search for the any book.
+
+# ERD
+![Alt text](https://user-images.githubusercontent.com/45580552/82759175-a1f63800-9db9-11ea-85f9-45f52d711be4.png)
